@@ -36,3 +36,6 @@ function getCommit(repositori, panggil){
         panggil(['Commit 1', 'Commit 2']); //parsing the array result to  displayCommits because it's called or passed as an argument on line 11
     }, 2000);
 }
+
+//but however, this isn't the most efficient way, there's another method to do  the same thing but with more efficient,
+//it's called Promises. Go to the next program to learn more about it.
